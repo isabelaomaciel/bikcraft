@@ -1,0 +1,45 @@
+.introduction-bg {
+  background-color: var(--color-12);
+  box-shadow: inset 0 -120px var(--color-0);
+}
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction-content {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.introduction img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.introduction-content h1 {
+  margin-bottom: 32px;
+}
+
+.introduction-content p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .introduction-content h1 {
+    font-size: 48px;
+  }
+
+  .introduction-content p {
+    font-size: 18px;
+  }
+}
