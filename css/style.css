@@ -4,6 +4,7 @@
 @import "./utilities/components.css";
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
+@import "./bikes/bikes-list.css";
 
 @media (max-width: 800px) {
   .header-menu {
