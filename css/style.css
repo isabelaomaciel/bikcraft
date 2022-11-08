@@ -1,9 +1,19 @@
+/*global*/
 @import "./global/global.css";
 @import "./global/header.css";
+
+/*home*/
 @import "./home/introduction.css";
+@import "./home/technology.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+
+/*utilities*/
 @import "./utilities/components.css";
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
+
+/*bikes*/
 @import "./bikes/bikes-list.css";
 
 @media (max-width: 800px) {
