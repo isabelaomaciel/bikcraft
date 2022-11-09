@@ -1,6 +1,7 @@
 /*global*/
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /*home*/
 @import "./home/introduction.css";
@@ -15,6 +16,12 @@
 
 /*bikes*/
 @import "./bikes/bikes-list.css";
+
+/*seguros*/
+@import "./seguros/seguros.css";
+
+/*termos*/
+@import "./termos/termos.css";
 
 @media (max-width: 800px) {
   .header-menu {
