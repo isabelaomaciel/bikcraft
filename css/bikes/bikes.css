@@ -1,12 +1,8 @@
-.bikes-bg {
-  background: linear-gradient(
-    to right,
-    var(--color-0) 30%,
-    var(--color-11) 30%
-  );
+.bicicletas-bg {
+  background: linear-gradient(to right, var(--color-0) 30%, var(--color-11) 0%);
 }
 
-.bikes {
+.bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -14,40 +10,40 @@
   padding-bottom: 60px;
 }
 
-.bikes-img {
+.bicicletas-imagem {
   display: grid;
 }
 
-.bikes-img img {
+.bicicletas-imagem img {
   grid-area: 1/1;
 }
 
-.bikes-img span {
+.bicicletas-imagem span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
   background: var(--color-12);
   display: inline-block;
   padding: 8px 16px 8px 8px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 4px 0 0 4px;
 }
 
-.bikes-content {
+.bicicletas-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
 }
 
-.bikes h2,
-.bikes p {
+.bicicletas h2,
+.bicicletas p {
   grid-column: 1/-1;
 }
 
-.bikes h2 {
+.bicicletas h2 {
   margin-bottom: 20px;
 }
 
-.bikes h2::before {
+.bicicletas h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -56,34 +52,34 @@
   margin-bottom: 8px;
 }
 
-.bikes p {
+.bicicletas p {
   margin-bottom: 32px;
 }
 
-.bikes a {
+.bicicletas a {
   place-self: end;
 }
 
-.bikes li {
+.bicicletas li {
   display: flex;
   align-items: center;
 }
 
-.bikes li + li {
-  margin-top: 16px;
+.bicicletas ul {
+  display: grid;
+  gap: 16px;
 }
 
-.bikes-content img {
+.bicicletas-conteudo img {
   width: 24px;
   margin-right: 8px;
 }
 
 @media (max-width: 800px) {
-  .bikes-bg {
+  .bicicletas-bg {
     background: var(--color-11);
   }
-
-  .bikes {
+  .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
@@ -92,17 +88,15 @@
 }
 
 @media (max-width: 600px) {
-  .bikes-content {
+  .bicicletas-conteudo {
     grid-template-columns: 1fr;
   }
-
-  .bikes ul {
+  .bicicletas ul {
     font-size: 1rem;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
   }
-
-  .bikes a {
+  .bicicletas a {
     place-self: start;
   }
 }

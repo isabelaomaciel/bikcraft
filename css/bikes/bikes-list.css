@@ -17,6 +17,10 @@
   overflow-x: auto;
 }
 
+#bicicleta .bikes-list ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bikes-list li {
   flex: 1;
   min-width: 280px;
@@ -43,7 +47,7 @@
   width: 12px;
   margin-right: 8px;
   background-color: var(--color-p1);
-  transition: width;
+  transition: width 0.2s;
 }
 
 .bikes-list a:hover h3::before {
@@ -59,7 +63,7 @@
     padding-bottom: 60px;
   }
 
-  .bikes-list {
+  .bikes-list ul {
     gap: 20px;
   }
 }

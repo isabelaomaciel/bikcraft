@@ -19,7 +19,7 @@
 
 .depoimento-content p {
   max-width: 32ch;
-  font-family: Merriweather, serif;
+  font-family: "Merriweather", serif;
   font-style: italic;
   font-weight: 900;
   margin-bottom: 32px;
@@ -51,7 +51,7 @@
 
   .depoimento-content {
     padding: 40px 20px;
-    justify-self: center;
+    margin: auto;
   }
 
   .depoimento img {
