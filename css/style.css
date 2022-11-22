@@ -13,6 +13,7 @@
 @import "./utilities/components.css";
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
+@import "./utilities/formulario.css";
 
 /*bikes*/
 @import "./bikes/bikes-list.css";
@@ -27,5 +28,12 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
+/*contato*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
 /*termos*/
 @import "./termos/termos.css";
+
+/*orçamento*/
+@import "./orcamento/orcamento.css";
