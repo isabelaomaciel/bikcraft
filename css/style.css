@@ -14,6 +14,7 @@
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
 @import "./utilities/formulario.css";
+@import "./utilities/animacao.css";
 
 /*bikes*/
 @import "./bikes/bikes-list.css";
